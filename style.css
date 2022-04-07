@@ -1,6 +1,6 @@
 body {
     font-family: "Roboto Mono", monospace;
-    background-image: url("/moeda.jpg");
+    background-image: url("moeda.jpg");
     background-color: #000000;
     background-size: 100%;;
     background-repeat: no-repeat;
