@@ -1,0 +1,100 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    background-image: url("/moeda.jpg");
+    background-color: #000000;
+    background-size: 100%;;
+    background-repeat: no-repeat;
+    
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+    text-shadow: 5px 3px 5px rgb(0, 0, 0);
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: 60px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+    background-color: rgb(65, 129, 2, 0.7);
+    height: 30px;
+    font-size: 24px;
+    border-radius: 10px;
+    padding: 5px;
+    
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  input {
+    margin: 12px;
+    padding: 6px 10px;
+    border-radius: 5px;
+    background-color: rgb(7, 7, 7,0.7);
+    height: 30px;
+    width: 300px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+  }
+  
+  label {
+    color: white;
+    font-size: 22px;
+  }
+  
+  button {
+    margin-top: 12px;
+    padding: 4px 8px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    height: 40px;
+    width: 250px;
+    background-color: rgb(1, 75, 1,0.3);
+    color: #ffffff;
+    border: black 2px solid;
+    text-shadow: 5px 3px 5px rgb(0, 0, 0);
+    box-shadow: 5px 3px 5px rgb(0, 0, 0);
+    transition: 0.3s;
+  }
+  button:hover {
+    color: #ffffff;
+    background-color: rgb(1, 75, 1,0.9);
+  }
+  
+  h2 {
+    color: #ffffff;
+    font-size: 30px;
+  }
+  
+  #valorConvertido{
+    color: #ffffff;
+    font-size: 24px;
+    margin-top: 20px;
+    border-radius: 15px;
+    background-color: rgb(0, 0, 0, 0.7);
+    text-shadow: 5px 3px 5px rgb(0, 0, 0);
+    box-shadow: 5px 3px 5px rgb(0, 0, 0);
+    height: 50px;
+    padding-top: 20px;
+  }
